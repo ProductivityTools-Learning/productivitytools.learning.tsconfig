@@ -1,8 +1,6 @@
-import 'module-alias/register';
-
 import React from 'react';
 import './App.css';
-import { SimpleComponent } from './components/simplecomponent';
+import { SimpleComponent } from '@/simplecomponent';
 
 function App() {
   return (
