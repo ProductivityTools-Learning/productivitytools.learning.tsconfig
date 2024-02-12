@@ -1,3 +1,5 @@
+import 'module-alias/register.js'; 
+
 import React from 'react';
 import './App.css';
 import { SimpleComponent } from '@/simplecomponent';

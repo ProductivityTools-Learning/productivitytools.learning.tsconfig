@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "baseUrl": "src/",
+    "baseUrl": "./src",
     "paths": {
       "@/*":[
         "components/*"
       ]
     },
-    "target": "es5",
+    "target": "es2020",
     "lib": [
       "dom",
       "dom.iterable",
