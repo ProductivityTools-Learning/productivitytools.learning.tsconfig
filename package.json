@@ -1,6 +1,5 @@
 {
   "name": "productivitytools.learning.tsconfig",
-  "type": "module",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +10,7 @@
     "@types/node": "^16.18.80",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
+    "craco": "^0.0.3",
     "module-alias": "^2.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,8 +22,8 @@
     "@": "dist"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "build": "craco build",
+    "start": "craco start"
   },
   "eslintConfig": {
     "extends": [
